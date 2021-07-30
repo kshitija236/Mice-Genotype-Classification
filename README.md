@@ -11,10 +11,10 @@ The downloaded file is present in Data folder. For more information on data plea
 
 ## Exploratory Data Analysis 
 1. It was found that there are certain values missing in the given data. **Multivariate Feature Imputation** is used to estimate these missing values.
-2. High correlation between some features were found. Only one of the highly correlated features was kept and others were dropped.
+2. High correlation between some features were found. Only one of the highly correlated features was kept and others were dropped(**Feature Reduction**)
 
 ## Preprocessing
-1.Features were normalized prior to prediction using standard scaler from sklearn preprocessing module.
+1.**Features were normalized** prior to prediction using standard scaler from sklearn preprocessing module.
 
 ## Hyperparameter selection
 **Grid search** over range of hyperparameters was done and best parameters was selected using **k-fold cross validation** on training data.
