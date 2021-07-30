@@ -1,4 +1,4 @@
-# Mice-Genotype-Classification
+# Mice-Genotype-Prediction
 ##  Project Description
 This project is for predicting "Genotype" of mice based on expression level of 77 different proteins. It is a binary classification problem. Three different types of ML 
 algorthms viz. logistic regression with L1 regularizaiton, support vector machines and random forest classification are used. Data exploration, visualization and preprocessing 
@@ -9,7 +9,7 @@ scikit learn library in python. All code is present in a single jupyter notebook
 Data is taken from Mice Protein Expression Data Set at UCI ML repo https://archive.ics.uci.edu/ml/machine-learning-databases/00342/Data_Cortex_Nuclear.xls
 The downloaded file is present in Data folder. For more information on data please visit https://archive.ics.uci.edu/ml/datasets/Mice+Protein+Expression
 
-## Data exploration and visualization
+## Exploratory Data Analysis 
 1. It was found that there are certain values missing in the given data. **Multivariate Feature Imputation** is used to estimate these missing values.
 2. High correlation between some features were found. Only one of the highly correlated features was kept and others were dropped.
 
